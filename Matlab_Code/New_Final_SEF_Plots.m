@@ -228,42 +228,42 @@ nexttile
 histogram(P20_transformed(:,1),20);
 title('X UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 2
 nexttile
 histogram(P20_transformed(:,4),20);
 title('X UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 3
 nexttile
 histogram(P20_transformed(:,2),20);
 title('Y UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 4
 nexttile
 histogram(P20_transformed(:,5),20);
 title('Y UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 5
 nexttile
 histogram(P20_transformed(:,3),20);
 title('Z UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 6
 nexttile
 histogram(P20_transformed(:,6),20);
 title('Z UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 %% Make bar plots of the distribution of x, y, and z points for P40
 figure(8)
@@ -279,42 +279,42 @@ nexttile
 histogram(P40_transformed(:,1),20);
 title('X UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 2
 nexttile
 histogram(P40_transformed(:,4),20);
 title('X UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 3
 nexttile
 histogram(P40_transformed(:,2),20);
 title('Y UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 4
 nexttile
 histogram(P40_transformed(:,5),20);
 title('Y UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 5
 nexttile
 histogram(P40_transformed(:,3),20);
 title('Z UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 6
 nexttile
 histogram(P40_transformed(:,6),20);
 title('Z UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 %% Make bar plots of the distribution of x, y, and z points for PMax
 figure(9)
@@ -330,42 +330,42 @@ nexttile
 histogram(PMax_transformed(:,1),20);
 title('X UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 2
 nexttile
 histogram(PMax_transformed(:,4),20);
 title('X UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 3
 nexttile
 histogram(PMax_transformed(:,2),20);
 title('Y UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 4
 nexttile
 histogram(PMax_transformed(:,5),20);
 title('Y UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 5
 nexttile
 histogram(PMax_transformed(:,3),20);
 title('Z UL');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 % Tile 6
 nexttile
 histogram(PMax_transformed(:,6),20);
 title('Z UR');
 xlim([-30 30])
-ylim([1 12])
+ylim([0 12])
 
 %% Statistics
 p_val20 = zeros(6,1);
