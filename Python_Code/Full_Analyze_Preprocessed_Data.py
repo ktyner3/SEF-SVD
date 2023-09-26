@@ -7,7 +7,7 @@ Created on Thu Feb 23 10:51:20 2023
 
 #%% Import external functions
 import sys
-sys.path.insert(0,'C:/Users/kevin.tyner/Desktop/Python/Code/') # change path
+sys.path.insert(0,'path/to/functions/') # change path
 
 #%% Import modules
 import os
