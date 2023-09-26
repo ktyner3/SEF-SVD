@@ -10,7 +10,7 @@ count_ur = 0;
 sub_dir = 'U:\shared\database\meg-ieeg-UNMC\derivatives\';
 
 %% Grab participants to include in the analysis
-participants = readtable('U:\shared\users\ktyner\Papers\2023\NeuroImage_Clinical\New_SEF_Demographics.xlsx');
+participants = readtable('U:\xxxxxxxxxx\New_SEF_Demographics.xlsx');
 participants = string(participants{:,1});
 participants = append('sub-',participants);
 
