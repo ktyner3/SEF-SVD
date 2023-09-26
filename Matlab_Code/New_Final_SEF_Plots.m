@@ -3,7 +3,7 @@ clear;
 clc;
 
 %% Load data
-data = load('C:\Users\kevin.tyner\Desktop\MATLAB\Data\2023\MEG_SEF\Final_SEF_Analysis_Data.mat');
+data = load('C:\xxxxxxxxxx\Final_SEF_Analysis_Data.mat');
 
 %% Plot random overlap with anatomical areas
 x = max(size(data.Random_UL_Correct),size(data.Random_UR_Correct));
